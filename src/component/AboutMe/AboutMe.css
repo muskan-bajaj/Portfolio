@@ -1,0 +1,43 @@
+.aboutMePage{
+    background-image: url("../../assest/AboutMePage.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 899.3px;
+}
+
+.aboutMe{
+    /* background-color: red; */
+    /* width: 648px; */
+    /* height: 748px; */
+}
+
+.aboutMeHeading{
+    /* width: 322px; */
+    /* height: 96px; */
+    margin-left: 10vw;
+    padding-top: 10vh;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 96px;
+    color: #EEEEEE;
+}
+
+@media only screen and (max-width: 800px){
+    .aboutMePage{
+        width: 126.7vw;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .aboutMePage{
+        width: 267vw;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .aboutMePage{
+        width: 863px;
+    }
+}

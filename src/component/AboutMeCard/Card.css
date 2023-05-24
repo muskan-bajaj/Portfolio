@@ -1,0 +1,70 @@
+.aboutMeCard{
+    margin-top: 5vh;
+}
+
+.AcardParent{
+    display: flex;
+    background-color:rgba(0, 173, 181, 0.5);
+    box-shadow: -4px 4px 5px #FFFFFF;
+    border-radius: 15px;
+    width: 40vw;
+    height: 165px;
+    margin-left: 44px;
+    margin-bottom: 53px;
+}
+
+.AcardIcon{
+    /* width: 182px; */
+    /* height: 163px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.AcardIcon svg{
+    width: 6vw;
+    margin-left: 1vw;
+}
+
+.AcardText{
+    margin-left: 1vw;
+    margin-right: 1vw;
+    /* width: 360px; */
+}
+
+.AcardHeading{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: x-large;
+    font-weight: bold;
+    /* margin-left: -17px; */
+}
+
+.AcardDetails{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 16px;
+}
+
+/* @media only screen and (min-width: 800px){
+    .AcardDetails{
+        overflow: scroll;
+    }
+} */
+
+@media only screen and (max-width: 700px){
+    .AcardParent{
+        width: 400px;
+    }
+
+    .AcardIcon svg{
+        width: 25vw;
+        margin-left: 10px;
+    }
+
+    .AcardText{
+        margin-left: 15px;
+    }
+}

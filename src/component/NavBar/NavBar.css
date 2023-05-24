@@ -1,0 +1,49 @@
+.navBar{
+    /* height: 132px; */
+    width: 100%;
+    background-color: #222831;
+    display: flex;
+    justify-content: space-between;
+    /* border: 3px red solid; */
+    border-bottom: 1px rgba(238, 238, 238, 0.1) solid;
+}
+
+.name{
+    padding: 48px 96px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    color: #EEEEEE;
+}
+
+.links{
+    /* height: 132px; */
+    width: 502px;
+}
+
+.linksList{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 48px;
+}
+
+.linksListItem{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    color: #EEEEEE;
+}
+
+@media only screen and (max-width: 800px){
+    .navBar{
+        width: 126.7vw;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .navBar{
+        display: none;
+    }
+}
